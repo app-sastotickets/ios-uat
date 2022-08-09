@@ -1,5 +1,5 @@
 
-## Sasto Tickets SDK Integration summary for Swift Pay ( IOS )
+## Sasto Tickets SDK Integration summary ( IOS )
 
 <br>
 <br>
