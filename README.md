@@ -103,7 +103,7 @@ https://sastotickets-integration-b 2 b.web.app
 
 SDK will handle the 1. Flight Search, 2. Availability & 3. Reservation part and the 4.
 
-Payment and 5. Issue Ticket should be implemented at the IME's end.
+Payment and 5. Issue Ticket should be implemented at your end.
 
 After the completion of 3. Reservation SDK will provide a callback with necessary payload required to
 call 5. Issue Ticket API
@@ -131,9 +131,9 @@ MTQsInBydiI6ImYyN2RiZjM3OTBlN2IxZmNhOGRmYjZjODhlZjk1YWY5MDQ2YTg4ZmMifQ.kXY
 TKzP__Ya-CpP5vYRuzVB1JVbTUaQrPOi0NEBVRQY"
 }
 ```
-#### IME Backend or App
+#### Your App
 
-IME should now implement the payment part and debit the customer's wallet/account and after the completion of payment should call the Sasto Tickets Ticket Issue API for issuing ticket and getting
+You should now implement the payment part and debit the customer's wallet/account and after the completion of payment should call the Sasto Tickets Ticket Issue API for issuing ticket and getting
 ticket details in the response.
 
 ```
